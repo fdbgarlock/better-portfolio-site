@@ -1,0 +1,402 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0.15em;
+  color: #000000;
+  text-align: center;
+}
+
+
+p {
+  padding: 1rem;
+}
+
+
+
+.logo {
+  padding-bottom: 10px;
+}
+
+.title {
+    background-color: #000000;
+}
+
+.title div{
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  height: 95vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.title h1 {
+  padding: 20vh 10px 0 10px;
+}
+
+.title p {
+  padding: 0 20px 175px 20px;
+}
+
+.title .caption {
+  font-size: 0.77rem;
+  padding: 0;
+  margin-bottom: 0;
+
+
+}
+
+/********************************navigation section********************/
+
+header {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+  padding: 1rem 2rem 0 2rem;
+  background-color: #000000;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 2rem;
+  top: 40px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 0;
+  background-color: #000000;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*******button*******/
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+/************************main****************************/
+
+.budgie {
+  background-color: #154C6B;
+}
+
+main img {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+
+.text {
+  width: 75%;
+}
+
+.picture {
+  padding-top: 25px;
+}
+
+.things {
+  background-color: #9FDAE7;
+}
+
+.hungry {
+  background-color: #F8F9FC;
+}
+
+
+
+
+
+
+
+/**************************************************************about me page***************************************************************/
+
+.me {
+  background-color: #000000;
+  min-height: 95vh;
+  padding: 20px 0;
+}
+
+.me img {
+  width: 50vw;
+  max-width: 288px;
+  padding-top: 100px;
+}
+
+.skills h2 {
+  margin-bottom: 0;
+}
+
+.skills, .tools {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tools {
+  padding-bottom: 16px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills div {
+  margin: auto;
+}
+
+.skills ul li {
+  padding: 5px 15px;
+}
+
+.tools img {
+  width: 60px;
+}
+
+.tools p {
+  padding: 16px 16px;
+  text-align: center;
+}
+
+.icon {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+/*******************************************footer*********************************/
+footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+footer h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  padding: 20px 0 10px 0;
+  margin: 0;
+}
+
+footer p {
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+footer .copyright {
+font-size: 10px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+nav>ul>li>a {
+  padding: 0 12px;
+}
+
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  padding: 0 20px;
+}
+
+
+
+/****************************************641px or larger********************/
+@media only screen and (min-width: 641px) {
+
+
+  h1 {
+    font-size: 48px;
+  }
+
+
+  .picture {
+    max-width: 641px;
+  }
+
+  .text {
+    max-width: 400px;
+  }
+
+  .title div{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .title p {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .title h1 {
+    padding-top: 20vh;
+  }
+
+
+/***************about me*************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*******navigation************/
+
+.navtoggle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+}
+
+
+
+
+
+
+/****************************************1024px or larger********************/
+@media only screen and (min-width: 1024px) {
+
+
+.title p {
+  font-size: 24px;
+}
+
+
+
+h1 {
+  font-size: 64px;
+}
+
+  main img {
+    width: 50%;
+  }
+
+.text {
+  max-width: 500px;
+}
+
+.budgie-flex, .things-flex, .raveled-flex, .hungry-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1000px;
+  min-height: 460px;
+  margin: auto;
+}
+
+.raveled-flex, .hungry-flex {
+  flex-direction: row;
+}
+
+/***************about me*************/
+.me {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+
+
+}
