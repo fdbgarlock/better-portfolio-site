@@ -278,7 +278,7 @@ flex-direction: row;
 /****************************************************************************************budgie case study**************************************************************************************/
 
 
-.blue, .blue .navtoggle, .navtoggle.responsive, .navtoggle.responsive nav {
+.blue, .blue .navtoggle, .blue .navtoggle.responsive, .blue .navtoggle.responsive nav {
   background-color: #154C6B;
 }
 
