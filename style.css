@@ -72,8 +72,6 @@ p {
   font-size: 0.77rem;
   padding: 0;
   margin-bottom: 0;
-
-
 }
 
 /********************************navigation section********************/
@@ -121,8 +119,6 @@ header {
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
-
-
 
 
 nav>ul {
@@ -766,13 +762,6 @@ footer {
 
 
 
-}
-
-
-
-
-/*******navigation************/
-
 .navtoggle {
   display: flex;
   justify-content: space-between;
@@ -785,6 +774,16 @@ footer {
 .navtoggle li:last-child {
   display: none;
 }
+
+
+}
+
+
+
+
+/*******navigation************/
+
+
 
 
 
