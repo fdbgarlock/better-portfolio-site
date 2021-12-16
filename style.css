@@ -172,16 +172,19 @@ margin: 0 auto;
   background-color: #F8F9FC;
 }
 
-.link {
+.link, .link-light {
   display: block;
 }
 
 .link:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
-
+.link-light:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 
 
 
