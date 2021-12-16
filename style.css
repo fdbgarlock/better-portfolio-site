@@ -92,6 +92,8 @@ header {
   display: none;
 }
 
+
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
   padding: 1rem 2rem 0 2rem;
@@ -119,6 +121,9 @@ header {
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
+
+
+
 
 nav>ul {
   list-style-type: none;
@@ -182,12 +187,17 @@ margin: 0 auto;
 
 /**************************************************************about me page***************************************************************/
 
+
+.about {
+  padding-top: 90px;
+}
+
 .me {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #000000;
-  min-height: 95vh;
+  min-height: 90vh;
   padding: 20px;
 }
 
@@ -847,7 +857,6 @@ h1 {
   gap: 60px;
   height: 700px;
 }
-
 
 
 
