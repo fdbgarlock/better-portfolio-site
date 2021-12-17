@@ -806,7 +806,7 @@ h1 {
 }
 
   .index img {
-    width: 50%;
+    max-width: 50%;
   }
 
 .text {
@@ -820,6 +820,7 @@ h1 {
   min-height: 460px;
   margin: auto;
 }
+
 
 .raveled-flex, .hungry-flex {
   flex-direction: row;
@@ -837,6 +838,7 @@ h1 {
 .name {
   display: none;
 }
+
 
 
 
